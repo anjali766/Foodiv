@@ -1,0 +1,21 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: rgba(241, 109, 8, 0.986);
+    cursor:default;
+}
+.navopt{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: grey;
+}
+
+.navopt a:hover{
+    color: black;
+    cursor: pointer;
+}

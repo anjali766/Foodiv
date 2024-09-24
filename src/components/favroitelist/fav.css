@@ -1,0 +1,56 @@
+
+.fav-list {
+    margin: 0;
+    width: 100%;
+}
+
+.fav-list h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fav-list ul {
+    list-style-type: none; 
+    padding: 0;  
+    margin: 0;  
+    display: flex;  
+    flex-wrap: wrap;  
+    gap: 20px;
+}
+
+.card {
+    position:relative;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(4,250px);
+  
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.fav-list li {
+    background-color: #e4641b;
+    padding: 15px;  
+    border-radius: 8px;  
+    margin-left: 15px;
+    max-width: 100%;
+}
+
+.fav-list li a {
+    text-decoration: none;
+    position: flex;
+    padding: 6px;
+    margin-left: 17px;
+    text-align: center;
+}
+
+.fav-list li a:hover {
+    text-decoration: underline;
+}
+.fav-list button {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40%;
+}
+

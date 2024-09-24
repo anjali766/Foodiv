@@ -1,0 +1,39 @@
+.addform {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 3rem;
+    background-color: rgba(241, 109, 8, 0.986);
+    border-radius: 8px;
+    
+  }
+  
+
+.addform form {
+    display: flex;
+    flex-direction: column;
+}
+
+.addform h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addform input, .addform textarea,.addform select,.addform button{
+    margin: 15px;
+    padding: 5px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.addform textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+.addform button{
+    max-width: fit-content;
+    margin-left: 42%;
+}
+
+
+
